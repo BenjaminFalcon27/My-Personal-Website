@@ -132,20 +132,22 @@ let resumeData = {
   portfolio: [
     {
       name: "React Memory Card Game",
-      description: "My first React project",
+      description:
+        "My first React project to learn the basics of React components with a simple memory card game",
       imgurl: "images/portfolio/yoschi.jpg",
       url: "https://memory-card-game-rust.vercel.app/",
     },
     {
       name: "RoR Todo List",
-      description: "My first React and Rails project",
+      description:
+        "My first React and Rails project, a simple todo list realized during my internship at Translation.io to discover RoR",
       imgurl: "images/portfolio/Todolist.jpg",
       url: "https://github.com/BenjaminFalcon27/todolist",
     },
     {
       name: "League of Legends List in React Native",
       description:
-        "List of all champions in League of Legends in React Native with API call",
+        "The list of all champions in League of Legends in React Native with TS API call",
       imgurl: "images/portfolio/mobile app.jpg",
       url: "https://expo.dev/@benjaminfalcon27/league-des-legendes",
     },
