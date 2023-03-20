@@ -81,6 +81,25 @@ export default class Resume extends Component {
             </ul>
           </div>
         </div>
+
+        <div className="row computer-watch">
+          <div className="three columns header-col">
+            <h1>
+              <span>Computer Watch</span>
+            </h1>
+          </div>
+          <div className="nine columns main-col">
+            <div className="text-center">
+              <a href="https://app.daily.dev/BenjaminFalcon" target="_blank">
+                <img
+                  src="https://api.daily.dev/devcards/cfeaa53a61644062a3bc3933ede88a0b.png?r=rxh"
+                  width="400"
+                  alt="Trolais Benjamin's Dev Card"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
     );
   }

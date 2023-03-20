@@ -10,6 +10,12 @@ let resumeData = {
       className: "fa fa-linkedin",
     },
     {
+      name: "CV",
+      url:
+        "https://firebasestorage.googleapis.com/v0/b/cvbenjamin.appspot.com/o/CV.pdf?alt=media&token=c251ba66-21c3-4245-8d43-7a4326b5bf4b",
+      className: "fa fa-file-text",
+    },
+    {
       name: "github",
       url: "http://github.com/benjaminfalcon27",
       className: "fa fa-github",
@@ -18,18 +24,19 @@ let resumeData = {
   aboutme:
     "As a highly enthusiastic and dedicated beginner web developer, I am eager to start my career in the field and bring my passion for technology to life. I have a solid understanding of RoR, Javascript, React and I am constantly seeking new opportunities to expand my skillset.",
   address: "Lille, France",
-  website: "https://benjaminfalcon27.github.io",
+  website: "benjamin.trolais.pro@gmail.com",
   education: [
     {
       UniversityName: "IUT Calais",
-      specialization: "LP DIM (Web and Mobile Development)",
+      specialization: "Vocational degree in Web and Mobile Development",
       MonthOfPassing: "",
       YearOfPassing: "2022 - 2023",
-      Achievements: "ReactJS, ReactNative, Flutter, Javascript",
+      Achievements:
+        "ReactJS, ReactNative, Flutter, Javascript, Angular, Symfony, JEE, MongoDB",
     },
     {
       UniversityName: "IUT Calais",
-      specialization: "DUT IT",
+      specialization: "2 years technical degree in IT",
       MonthOfPassing: "",
       YearOfPassing: "2020 - 2022",
       Achievements: "PHP, Java, C, Python, SQL, HTML, CSS, Javascript",
@@ -42,14 +49,15 @@ let resumeData = {
       MonthOfLeaving: "",
       YearOfLeaving: "2022 - 2023",
       Achievements:
-        "Ruby on Rails, HAML, SCSS, Git, Bootstrap, RSpec, Docker, Kubernetes",
+        "Ruby on Rails, HAML, SCSS, Git, Bootstrap, RSpec, Docker, Kubernetes, REST API, Javascript",
     },
     {
       CompanyName: "Translation.io",
       specialization: "Internship as a Full Stack Web Developer",
       MonthOfLeaving: "Apr - Jun",
       YearOfLeaving: "2020",
-      Achievements: "Ruby on Rails, Git, ES6, RSpec, Capybara",
+      Achievements:
+        "Ruby on Rails, Git, ES6, RSpec, Capybara, Coffeescript, React, Heroku",
     },
   ],
   skillsDescription: "My skills",
@@ -61,28 +69,64 @@ let resumeData = {
       skillname: "CSS",
     },
     {
-      skillname: "Reactjs",
+      skillname: "JavaScript ES6",
     },
     {
-      skillname: "Ruby on Rails",
+      skillname: "JQuery",
     },
     {
-      skillname: "Javascript",
+      skillname: "ReactJS",
+    },
+    {
+      skillname: "SCSS",
+    },
+    {
+      skillname: "Bootstrap",
+    },
+    {
+      skillname: "Ruby",
+    },
+    {
+      skillname: "NodeJS",
     },
     {
       skillname: "PHP",
     },
     {
-      skillname: "Java",
-    },
-    {
-      skillname: "C",
-    },
-    {
       skillname: "Python",
     },
     {
+      skillname: "Java",
+    },
+    {
       skillname: "SQL",
+    },
+    {
+      skillname: "MongoDB",
+    },
+    {
+      skillname: "Flutter",
+    },
+    {
+      skillname: "React Native",
+    },
+    {
+      skillname: "Ruby on Rails",
+    },
+    {
+      skillname: "Symfony",
+    },
+    {
+      skillname: "Angular",
+    },
+    {
+      skillname: "Git",
+    },
+    {
+      skillname: "Dockers",
+    },
+    {
+      skillname: "Kubernetes",
     },
   ],
   portfolio: [

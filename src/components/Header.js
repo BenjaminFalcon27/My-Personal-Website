@@ -1,11 +1,37 @@
 import React, { Component } from "react";
+import firebase from "firebase/compat/app";
+import "firebase/compat/storage";
+
 export default class Header extends Component {
+  handleDownload = () => {
+    const storageRef = firebase
+      .storage()
+      .ref()
+      .child("CV.pdf");
+
+    storageRef.getDownloadURL();
+  };
+
   render() {
     let resumeData = this.props.resumeData;
+    const firebaseConfig = {
+      apiKey: "AIzaSyBULEmJjD_ItpObj6c2U9RCpFNFhwGXBao",
+      authDomain: "cvbenjamin.firebaseapp.com",
+      databaseURL:
+        "https://cvbenjamin-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "cvbenjamin",
+      storageBucket: "cvbenjamin.appspot.com",
+      messagingSenderId: "808554890030",
+      appId: "1:808554890030:web:1cd27b9f91a005092c30bf",
+    };
+
+    firebase.initializeApp(firebaseConfig);
+
     return (
       <React.Fragment>
         <header id="home">
           <nav id="nav-wrap">
+            {/* <button onClick={this.handleDownload}>Download CV</button> */}
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
               Show navigation
             </a>
@@ -51,7 +77,14 @@ export default class Header extends Component {
                     return (
                       <li key={item.name}>
                         <a href={item.url} target="_blank">
-                          <i className={item.className} />
+                          {item.className === "fa fa-file-text" ? (
+                            <i
+                              className={item.className}
+                              onClick={this.handleDownload}
+                            />
+                          ) : (
+                            <i className={item.className} />
+                          )}
                         </a>
                       </li>
                     );

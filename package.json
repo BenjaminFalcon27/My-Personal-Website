@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "firebase": "^9.17.2",
     "firebaseui": "^6.0.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
